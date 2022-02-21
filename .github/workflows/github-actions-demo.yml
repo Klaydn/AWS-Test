@@ -30,4 +30,5 @@ jobs:
           remote-host: "ftp.klayden.com"
           remote-user: "github@klayden.com"
           ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          remote-path: "/home/klaydn/public_html"
+          remote-path: "/home/klaydn/"
+          
