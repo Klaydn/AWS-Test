@@ -30,6 +30,6 @@ jobs:
           remote-host: "ftp.klayden.com"
           remote-user: "github@klayden.com"
           remote-password: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          remote-path: "/home/klaydn/public_html"
+          remote-path: "/public_html"
           remote-port: 21
           
