@@ -26,7 +26,7 @@ jobs:
       - name: "Deploy"
         uses: milanmk/actions-file-deployer@master
         with:
-          remote-protocol: "ftp"
+          remote-protocol: "sftp"
           remote-host: "ftp.klayden.com"
           remote-user: "github@klayden.com"
           ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
