@@ -31,4 +31,5 @@ jobs:
           remote-user: "github@klayden.com"
           remote-password: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           remote-path: "/home/klaydn/public_html"
+          debug: True
           
